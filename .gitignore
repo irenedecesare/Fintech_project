@@ -6,4 +6,7 @@
 .mypy_cache
 .coverage
 .coverage.*
-.coverage.*
+codici_irene/*
+__pycache__/*
+data/csv/*
+data/eda/*
