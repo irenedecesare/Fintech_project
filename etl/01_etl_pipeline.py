@@ -25,6 +25,10 @@ from datetime import datetime, timedelta
 from typing import Dict
 from sqlalchemy import create_engine
 from sqlalchemy.orm import declarative_base, sessionmaker
+
+project_root = Path(__file__).parent.parent
+sys.path.insert(0, str(project_root))
+
 import utils.config as cfg
 import warnings
 

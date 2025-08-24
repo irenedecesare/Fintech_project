@@ -11,12 +11,16 @@ Includes moving averages, lag features, volatility, and data quality checks.
 
 Author: FinBankIQ Analytics Team
 """
-
+import sys
 import sqlite3
 import pandas as pd
 import numpy as np
 from pathlib import Path
 from datetime import datetime, timedelta
+
+project_root = Path(__file__).parent.parent
+sys.path.insert(0, str(project_root))
+
 import utils.config as cfg
 import warnings
 

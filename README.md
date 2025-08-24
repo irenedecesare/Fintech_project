@@ -11,8 +11,8 @@ A comprehensive crypto analytics platform for monitoring asset health, liquidity
 ## 🚀 Quick Start
 
 ### Prerequisites
-- Python >= 3.8
-- uv package manager (recommended) or pip
+- Python = 3.12.11
+- uv package manager
 
 ### Installation
 
@@ -24,17 +24,18 @@ A comprehensive crypto analytics platform for monitoring asset health, liquidity
 
 2. **Install dependencies**
    ```bash
-   # Using uv (recommended)
-   uv venv
+   # Using uv 
+   uv venv --python python3.12
+   ./venv/Scripts/activate
    uv sync
+   uv pip install streamlit
+   uv pip install plotly
    
-   # Or using pip (if available)
-   python -m pip install -r requirements.txt
    ```
 
 ## Installation
 **Install errors**
-'uv sync' should automatically download all required packages. If it does not, adjust it using the requirements.txt
+'uv sync' should automatically download all required packages. If it does not, probably it is missing STREAMLIT and PLOTLY. Just add them.
 
 ## 📊 Streamlit Dashboard
 
@@ -51,11 +52,8 @@ The application also allow the user to real-time monitor and play with interacti
 .venv/Scripts/activate
 ```
 ```bash
-# Using uv (recommended)
+# Using uv 
 uv run streamlit run MainApp.py
-
-# Or using streamlit directly (if available)
-streamlit run MainApp.py
 
 # On Windows, you can also double-click run_app.bat
 ```

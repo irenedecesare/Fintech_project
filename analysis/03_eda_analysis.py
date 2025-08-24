@@ -11,7 +11,7 @@ focusing on volatility patterns, address dynamics, and derived indicators.
 
 Author: FinBankIQ Analytics Team
 """
-
+import sys
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -24,6 +24,8 @@ import warnings
 from matplotlib.dates import DateFormatter
 import matplotlib.dates as mdates
 from typing import Optional, List
+project_root = Path(__file__).parent.parent
+sys.path.insert(0, str(project_root))
 import utils.config as cfg
 from scipy.cluster import hierarchy
 from scipy.stats import gaussian_kde
