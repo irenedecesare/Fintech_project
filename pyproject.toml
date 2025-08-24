@@ -12,7 +12,6 @@ readme = "README.md"
 requires-python = ">=3.9"
 
 
-
 dependencies = [
     # Core Data Processing
     "pandas>=2.0.0,<3.0.0",
@@ -55,11 +54,6 @@ deep-learning = [
     "transformers>=4.30.0,<5.0.0",
 ]
 
-[project.urls]
-Homepage = "https://github.com/finbankiq/analytics-platform"
-Documentation = "https://finbankiq.readthedocs.io"
-Repository = "https://github.com/finbankiq/analytics-platform.git"
-"Bug Tracker" = "https://github.com/finbankiq/analytics-platform/issues"
 
 [project.scripts]
 finbankiq-etl = "etl.01_etl_pipeline:main"
