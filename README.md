@@ -25,11 +25,16 @@ A comprehensive crypto analytics platform for monitoring asset health, liquidity
 2. **Install dependencies**
    ```bash
    # Using uv (recommended)
-   uv pip install -r requirements.txt
+   uv venv
+   uv sync
    
    # Or using pip (if available)
    python -m pip install -r requirements.txt
    ```
+
+## Installation
+**Install errors**
+'uv sync' should automatically download all required packages. If it does not, adjust it using the requirements.txt
 
 ## 📊 Streamlit Dashboard
 
@@ -41,6 +46,10 @@ The main application provides a user-friendly web interface to run the complete 
 The application also allow the user to real-time monitor and play with interactive visualizations (only after the second button is activated).
 
 ### Running the Dashboard
+**First activate the venv**
+```bash
+.venv/Scripts/activate
+```
 ```bash
 # Using uv (recommended)
 uv run streamlit run MainApp.py
@@ -114,6 +123,11 @@ Fintech_project/
 ## 🔍 Usage Guide
 
 ### Step-by-Step Workflow
+
+0. **Activate the virtual environment**: 
+   ```bash
+   .venv/Scripts/activate
+   ```
 
 1. **Start the Streamlit app**: 
    ```bash
