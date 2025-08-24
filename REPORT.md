@@ -4,7 +4,7 @@
 
 - **Increasing Centralization**: Bitcoin reached its highest centralization level in July 2025, with the decentralization index dropping to a historic low of 0.09
 - **Whale Accumulation**: Large holders (>$100K) have grown by 250-300% while small retail holders remain stagnant, indicating institutional accumulation
-- **Network Stagnation**: Active addresses declined 33% from ~1.1M (October 2023) to ~800K (August 2025), with persistently negative momentum
+- **Network Stagnation**: Active addresses declined 30% from ~1.1M (October 2023) to ~800K (August 2025)
 - **Fair Valuation Territory**: MVRV metrics suggest Bitcoin is neither over nor undervalued, sitting in the fair value zone (1.0-2.0) after correcting from the $2.5T market cap peak
 
 ## 1. When has the asset appeared most centralized in recent history?
