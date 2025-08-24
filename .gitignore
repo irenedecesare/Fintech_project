@@ -11,3 +11,4 @@ __pycache__/*
 data/csv/*
 data/eda/*
 utils/__pycache__/*
+utils/__pycache__/config.cpython-312.pyc

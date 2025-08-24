@@ -1,0 +1,14 @@
+2025-08-24 19:05:44,192 - FinBankIQ_EDA - INFO - Data directory created: ./data
+2025-08-24 19:05:44,208 - FinBankIQ_EDA - INFO - Database initialized at ./data/finbankiq_analytics.db
+2025-08-24 19:05:44,209 - FinBankIQ_EDA - INFO - ============================================================
+2025-08-24 19:05:44,209 - FinBankIQ_EDA - INFO - Starting FinBankIQ Crypto Analytics ETL Pipeline
+2025-08-24 19:05:44,209 - FinBankIQ_EDA - INFO - ============================================================
+2025-08-24 19:05:44,209 - FinBankIQ_EDA - INFO - Starting data extraction from CoinMetrics repository...
+2025-08-24 19:05:46,665 - FinBankIQ_EDA - INFO - Successfully downloaded CoinMetrics data archive
+2025-08-24 19:05:46,792 - FinBankIQ_EDA - INFO - Loaded 730 records for BTC
+2025-08-24 19:05:46,794 - FinBankIQ_EDA - INFO - Starting data transformation...
+2025-08-24 19:05:46,795 - FinBankIQ_EDA - INFO - Transforming data for BTC...
+2025-08-24 19:05:46,838 - FinBankIQ_EDA - INFO - Transformation complete for BTC: 730 records
+2025-08-24 19:05:46,838 - FinBankIQ_EDA - INFO - Starting data load to database...
+2025-08-24 19:05:46,944 - FinBankIQ_EDA - INFO - Loaded 730 records to table: crypto_metrics_btc
+2025-08-24 19:05:46,944 - FinBankIQ_EDA - INFO - Data load complete

@@ -1,0 +1,53 @@
+2025-08-24 19:06:01,411 - FinBankIQ_EDA - INFO - ============================================================
+2025-08-24 19:06:01,411 - FinBankIQ_EDA - INFO - FinBankIQ Crypto Analytics - Exploratory Data Analysis
+2025-08-24 19:06:01,411 - FinBankIQ_EDA - INFO - ============================================================
+2025-08-24 19:06:01,412 - FinBankIQ_EDA - INFO - 
+========================================
+2025-08-24 19:06:01,412 - FinBankIQ_EDA - INFO - Analyzing BTC
+2025-08-24 19:06:01,412 - FinBankIQ_EDA - INFO - ========================================
+2025-08-24 19:06:01,412 - FinBankIQ_EDA - INFO - 
+📈 Analyzing Volatility & Return Patterns...
+2025-08-24 19:06:01,413 - FinBankIQ_EDA - INFO - Analyzing volatility and return patterns for BTC
+2025-08-24 19:06:02,242 - FinBankIQ_EDA - INFO - Saved volatility analysis to data\eda\btc_volatility_returns.png
+2025-08-24 19:06:02,242 - FinBankIQ_EDA - INFO - 
+📈 Analyzing Market Cap & ROI + Correlation Matrix...
+2025-08-24 19:06:02,242 - FinBankIQ_EDA - INFO - Analyzing Market Cap and ROI for BTC
+2025-08-24 19:06:02,362 - FinBankIQ_EDA - INFO - Creating Bitcoin price with MVRV background chart for BTC
+2025-08-24 19:06:04,792 - FinBankIQ_EDA - INFO - Saved market cap and ROI analysis to data\eda\btc_market_cap_roi.png
+2025-08-24 19:06:04,792 - FinBankIQ_EDA - INFO - Creating correlation matrix analysis for BTC
+2025-08-24 19:06:05,482 - FinBankIQ_EDA - INFO - Saved correlation matrix to data\eda\btc_correlation_matrix.png
+2025-08-24 19:06:05,483 - FinBankIQ_EDA - INFO - 
+Top Positive Correlations:
+2025-08-24 19:06:05,485 - FinBankIQ_EDA - INFO -   PriceUSD <-> CapMrktCurUSD: 1.000
+2025-08-24 19:06:05,486 - FinBankIQ_EDA - INFO -   ROI1yr <-> ROI30d: 0.439
+2025-08-24 19:06:05,486 - FinBankIQ_EDA - INFO -   AdrActCnt <-> ROI30d: 0.337
+2025-08-24 19:06:05,486 - FinBankIQ_EDA - INFO -   TxCnt <-> ROI1yr: 0.314
+2025-08-24 19:06:05,486 - FinBankIQ_EDA - INFO -   PriceUSD <-> ROI30d: 0.038
+2025-08-24 19:06:05,486 - FinBankIQ_EDA - INFO - 
+Top Negative Correlations:
+2025-08-24 19:06:05,487 - FinBankIQ_EDA - INFO -   AdrActCnt <-> CapMrktCurUSD: -0.463
+2025-08-24 19:06:05,487 - FinBankIQ_EDA - INFO -   PriceUSD <-> AdrActCnt: -0.463
+2025-08-24 19:06:05,487 - FinBankIQ_EDA - INFO -   TxCnt <-> CapMrktCurUSD: -0.246
+2025-08-24 19:06:05,487 - FinBankIQ_EDA - INFO -   PriceUSD <-> TxCnt: -0.246
+2025-08-24 19:06:05,487 - FinBankIQ_EDA - INFO -   TxCnt <-> AdrActCnt: -0.210
+2025-08-24 19:06:05,487 - FinBankIQ_EDA - INFO - 
+🔍 Analyzing Address Activity & Supply Dynamics...
+2025-08-24 19:06:05,487 - FinBankIQ_EDA - INFO - Analyzing address activity and supply dynamics for BTC
+2025-08-24 19:06:07,789 - FinBankIQ_EDA - INFO - Saved enhanced address activity analysis to data\eda\btc_address_activity_enhanced.png
+2025-08-24 19:06:07,789 - FinBankIQ_EDA - INFO - 
+🧠 Calculating Chart Supply Dynamics...
+2025-08-24 19:06:07,789 - FinBankIQ_EDA - INFO - Analyzing chart supply dynamics for BTC
+2025-08-24 19:06:09,030 - FinBankIQ_EDA - INFO - Saved improved supply dynamics to data\eda\btc_supply_dynamics_improved.png
+2025-08-24 19:06:09,030 - FinBankIQ_EDA - INFO - 
+Data Validation Summary:
+2025-08-24 19:06:09,031 - FinBankIQ_EDA - INFO - Total Addresses (current): 54,620,322
+2025-08-24 19:06:09,031 - FinBankIQ_EDA - INFO - Addresses >$100K (current): 1,133,762
+2025-08-24 19:06:09,031 - FinBankIQ_EDA - INFO - Addresses >$1M (current): 169,743
+2025-08-24 19:06:09,031 - FinBankIQ_EDA - INFO - 
+🧠 Calculating Derived Indicators...
+2025-08-24 19:06:09,031 - FinBankIQ_EDA - INFO - Calculating derived indicators for BTC
+2025-08-24 19:06:12,280 - FinBankIQ_EDA - INFO - Saved derived indicators to data\eda\btc_derived_indicators.png
+2025-08-24 19:06:12,282 - FinBankIQ_EDA - INFO - 
+============================================================
+2025-08-24 19:06:12,282 - FinBankIQ_EDA - INFO - EDA Complete! Check data\eda for visualizations
+2025-08-24 19:06:12,282 - FinBankIQ_EDA - INFO - ============================================================

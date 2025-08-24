@@ -2,6 +2,12 @@
 
 A comprehensive crypto analytics platform for monitoring asset health, liquidity risk, and investor behavior analysis with an interactive Streamlit dashboard.
 
+## Main Points
+
+1) A streamlit application (MainApp) is included to make the whole process of downloading, querying and visualizing more simple. 
+2) The final report can be read in REPORT.md with insights from the generated visualizations.
+3) Visualizations used in the report are the ones coming from the 03_eda_analysis.py file. The interactive visualizations inside the streamlit app are just added as a plus... might be buggy.
+
 ## 🚀 Quick Start
 
 ### Prerequisites
@@ -12,7 +18,7 @@ A comprehensive crypto analytics platform for monitoring asset health, liquidity
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/irenedecesare/Fintech_project.git
    cd Fintech_project
    ```
 
@@ -27,7 +33,12 @@ A comprehensive crypto analytics platform for monitoring asset health, liquidity
 
 ## 📊 Streamlit Dashboard
 
-The main application provides a user-friendly web interface to run the complete analytics pipeline with real-time monitoring and interactive visualizations.
+The main application provides a user-friendly web interface to run the complete analytics pipeline. Press each botton in sequence to:
+1) Download data
+2) Perform SQL queries on downloaded data, and calculate metrics
+3) Generate visualizations
+
+The application also allow the user to real-time monitor and play with interactive visualizations (only after the second button is activated).
 
 ### Running the Dashboard
 ```bash
@@ -44,18 +55,17 @@ The dashboard will open in your browser at `http://localhost:8501`
 
 ### 🎯 Dashboard Features
 
-#### **Pipeline Control**
+#### **Pipeline Control - MAIN FEATURE**
 - **🔄 ETL Pipeline**: Extract crypto data from CoinMetrics and load into database
 - **📊 SQL Queries**: Perform analytical queries on the loaded data  
 - **📈 EDA Analysis**: Generate exploratory data analysis and visualizations
 
-#### **Real-Time Monitoring**
+#### **Real-Time Monitoring (Optional)**
 - **Live Logs**: Real-time log capture and display during process execution
 - **Status Indicators**: Visual status showing "Running", "Completed", or "Ready"
-- **Process Management**: Prevents multiple processes from running simultaneously
 - **Auto-Refresh**: Automatic log updates during execution
 
-#### **Data Exploration**
+#### **Data Exploration (Optional)**
 - **🗄️ Database Tab**: View database tables and preview raw data
 - **📈 Analytics Data Tab**: Browse CSV files organized by category
 - **📊 Visualizations Tab**: Interactive charts and graphs
@@ -76,7 +86,6 @@ The dashboard will open in your browser at `http://localhost:8501`
 
 ### 3. EDA Analysis (`analysis/03_eda_analysis.py`)
 - Creates comprehensive visualizations
-- Performs statistical analysis
 - Generates reports on asset health and investor behavior
 - Saves charts and plots to the data directory
 
@@ -119,21 +128,23 @@ Fintech_project/
 3. **Run SQL Queries**: 
    - Click "🔍 Run SQL Queries" button
    - This generates CSV files with analytics data
-   - Monitor progress in real-time
+   - Wait for completion status
 
-4. **Explore Data**: 
+4. **Run EDA Analysis** : 
+   - Click "📊 Run EDA Analysis" button
+   - Generates visualizations as png files in data/eda
+   - Generated plots are used in the REPORT.md
+
+4. **Explore Data via Streamlit** (Optional): 
    - Go to "📊 Data Preview" section
    - Use the three tabs to explore different data views
 
-5. **Create Visualizations**: 
+5. **Create Visualizations via Streamlit** (Optional): 
    - In the "📊 Visualizations" tab
    - Select CSV files from the dropdown
    - Choose metrics to visualize
    - View interactive charts
 
-6. **Run EDA Analysis** (Optional): 
-   - Click "📊 Run EDA Analysis" button
-   - Generates additional visualizations and reports
 
 ### 📊 Data Visualization Features
 
@@ -235,6 +246,12 @@ win_avg = [7, 30, 90]  # 7-day, 30-day, 90-day averages
 
 # Volatility window
 vol_window = 30  # 30-day volatility calculation
+
+# Lag window 
+lag = 1  #1 day lag
+
+# Window (days) to check anomalies in data
+cons_window = 7
 ```
 
 ## 🔧 Troubleshooting
@@ -289,9 +306,6 @@ vol_window = 30  # 30-day volatility calculation
 ### Web Application
 - **streamlit>=1.28.0**: Dashboard framework
 
-### Machine Learning (Optional)
-- **scikit-learn>=1.3.0**: Predictive models
-- **joblib>=1.3.0**: Model persistence
 
 ## 🤝 Contributing
 
@@ -301,9 +315,6 @@ vol_window = 30  # 30-day volatility calculation
 4. Test with the Streamlit dashboard
 5. Submit a pull request
 
-## 📄 License
-
-This project is part of the FinBankIQ Analytics Platform.
 
 ## 🆘 Support
 
@@ -312,7 +323,3 @@ For issues and questions:
 2. Review the configuration in `utils/config.py`
 3. Ensure all dependencies are installed
 4. Check the troubleshooting section above
-
----
-
-**FinBankIQ Crypto Analytics Platform** - Professional-grade crypto analytics with interactive visualizations and real-time monitoring.

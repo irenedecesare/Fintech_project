@@ -1,0 +1,403 @@
+2025-08-24 19:05:50,471 - FinBankIQ_EDA - INFO - ============================================================
+2025-08-24 19:05:50,471 - FinBankIQ_EDA - INFO - FinBankIQ Crypto Analytics - SQL Queries Module
+2025-08-24 19:05:50,471 - FinBankIQ_EDA - INFO - ============================================================
+2025-08-24 19:05:50,471 - FinBankIQ_EDA - INFO - 
+Analyzing BTC...
+2025-08-24 19:05:50,471 - FinBankIQ_EDA - INFO - ----------------------------------------
+2025-08-24 19:05:50,471 - FinBankIQ_EDA - INFO - 
+Detecting data quality issues for PriceUSD of BTC...
+2025-08-24 19:05:50,471 - FinBankIQ_EDA - INFO - ----------------------------------------
+2025-08-24 19:05:50,471 - FinBankIQ_EDA - INFO - Detecting data quality issues for PriceUSD of BTC
+2025-08-24 19:05:50,478 - FinBankIQ_EDA - INFO - Data quality check complete. Found 0 gaps and 0 suspicious patterns in PriceUSD of BTC
+2025-08-24 19:05:50,478 - FinBankIQ_EDA - INFO - Data quality issues for PriceUSD of BTC checked
+2025-08-24 19:05:50,478 - FinBankIQ_EDA - INFO - 
+Detecting data quality issues for TxCnt of BTC...
+2025-08-24 19:05:50,478 - FinBankIQ_EDA - INFO - ----------------------------------------
+2025-08-24 19:05:50,478 - FinBankIQ_EDA - INFO - Detecting data quality issues for TxCnt of BTC
+2025-08-24 19:05:50,485 - FinBankIQ_EDA - INFO - Data quality check complete. Found 0 gaps and 0 suspicious patterns in TxCnt of BTC
+2025-08-24 19:05:50,485 - FinBankIQ_EDA - INFO - Data quality issues for TxCnt of BTC checked
+2025-08-24 19:05:50,485 - FinBankIQ_EDA - INFO - 
+Detecting data quality issues for AdrActCnt of BTC...
+2025-08-24 19:05:50,485 - FinBankIQ_EDA - INFO - ----------------------------------------
+2025-08-24 19:05:50,485 - FinBankIQ_EDA - INFO - Detecting data quality issues for AdrActCnt of BTC
+2025-08-24 19:05:50,491 - FinBankIQ_EDA - INFO - Data quality check complete. Found 0 gaps and 0 suspicious patterns in AdrActCnt of BTC
+2025-08-24 19:05:50,491 - FinBankIQ_EDA - INFO - Data quality issues for AdrActCnt of BTC checked
+2025-08-24 19:05:50,491 - FinBankIQ_EDA - INFO - 
+Detecting data quality issues for CapMrktCurUSD of BTC...
+2025-08-24 19:05:50,491 - FinBankIQ_EDA - INFO - ----------------------------------------
+2025-08-24 19:05:50,491 - FinBankIQ_EDA - INFO - Detecting data quality issues for CapMrktCurUSD of BTC
+2025-08-24 19:05:50,496 - FinBankIQ_EDA - INFO - Data quality check complete. Found 0 gaps and 0 suspicious patterns in CapMrktCurUSD of BTC
+2025-08-24 19:05:50,496 - FinBankIQ_EDA - INFO - Data quality issues for CapMrktCurUSD of BTC checked
+2025-08-24 19:05:50,496 - FinBankIQ_EDA - INFO - 
+Detecting data quality issues for ROI1yr of BTC...
+2025-08-24 19:05:50,496 - FinBankIQ_EDA - INFO - ----------------------------------------
+2025-08-24 19:05:50,496 - FinBankIQ_EDA - INFO - Detecting data quality issues for ROI1yr of BTC
+2025-08-24 19:05:50,502 - FinBankIQ_EDA - INFO - Data quality check complete. Found 0 gaps and 0 suspicious patterns in ROI1yr of BTC
+2025-08-24 19:05:50,502 - FinBankIQ_EDA - INFO - Data quality issues for ROI1yr of BTC checked
+2025-08-24 19:05:50,502 - FinBankIQ_EDA - INFO - 
+Detecting data quality issues for ROI30d of BTC...
+2025-08-24 19:05:50,502 - FinBankIQ_EDA - INFO - ----------------------------------------
+2025-08-24 19:05:50,502 - FinBankIQ_EDA - INFO - Detecting data quality issues for ROI30d of BTC
+2025-08-24 19:05:50,509 - FinBankIQ_EDA - INFO - Data quality check complete. Found 0 gaps and 0 suspicious patterns in ROI30d of BTC
+2025-08-24 19:05:50,509 - FinBankIQ_EDA - INFO - Data quality issues for ROI30d of BTC checked
+2025-08-24 19:05:50,509 - FinBankIQ_EDA - INFO - 
+Detecting data quality issues for AdrBal1in100KCnt of BTC...
+2025-08-24 19:05:50,509 - FinBankIQ_EDA - INFO - ----------------------------------------
+2025-08-24 19:05:50,509 - FinBankIQ_EDA - INFO - Detecting data quality issues for AdrBal1in100KCnt of BTC
+2025-08-24 19:05:50,515 - FinBankIQ_EDA - INFO - Data quality check complete. Found 0 gaps and 0 suspicious patterns in AdrBal1in100KCnt of BTC
+2025-08-24 19:05:50,515 - FinBankIQ_EDA - INFO - Data quality issues for AdrBal1in100KCnt of BTC checked
+2025-08-24 19:05:50,515 - FinBankIQ_EDA - INFO - 
+Detecting data quality issues for AdrBal1in10KCnt of BTC...
+2025-08-24 19:05:50,515 - FinBankIQ_EDA - INFO - ----------------------------------------
+2025-08-24 19:05:50,515 - FinBankIQ_EDA - INFO - Detecting data quality issues for AdrBal1in10KCnt of BTC
+2025-08-24 19:05:50,521 - FinBankIQ_EDA - INFO - Data quality check complete. Found 0 gaps and 0 suspicious patterns in AdrBal1in10KCnt of BTC
+2025-08-24 19:05:50,522 - FinBankIQ_EDA - INFO - Data quality issues for AdrBal1in10KCnt of BTC checked
+2025-08-24 19:05:50,522 - FinBankIQ_EDA - INFO - 
+Detecting data quality issues for AdrBalUSD10KCnt of BTC...
+2025-08-24 19:05:50,522 - FinBankIQ_EDA - INFO - ----------------------------------------
+2025-08-24 19:05:50,522 - FinBankIQ_EDA - INFO - Detecting data quality issues for AdrBalUSD10KCnt of BTC
+2025-08-24 19:05:50,527 - FinBankIQ_EDA - INFO - Data quality check complete. Found 0 gaps and 0 suspicious patterns in AdrBalUSD10KCnt of BTC
+2025-08-24 19:05:50,528 - FinBankIQ_EDA - INFO - Data quality issues for AdrBalUSD10KCnt of BTC checked
+2025-08-24 19:05:50,528 - FinBankIQ_EDA - INFO - 
+Detecting data quality issues for AdrBalUSD100KCnt of BTC...
+2025-08-24 19:05:50,528 - FinBankIQ_EDA - INFO - ----------------------------------------
+2025-08-24 19:05:50,528 - FinBankIQ_EDA - INFO - Detecting data quality issues for AdrBalUSD100KCnt of BTC
+2025-08-24 19:05:50,534 - FinBankIQ_EDA - INFO - Data quality check complete. Found 0 gaps and 0 suspicious patterns in AdrBalUSD100KCnt of BTC
+2025-08-24 19:05:50,534 - FinBankIQ_EDA - INFO - Data quality issues for AdrBalUSD100KCnt of BTC checked
+2025-08-24 19:05:50,534 - FinBankIQ_EDA - INFO - 
+Detecting data quality issues for AdrBalUSD1MCnt of BTC...
+2025-08-24 19:05:50,534 - FinBankIQ_EDA - INFO - ----------------------------------------
+2025-08-24 19:05:50,534 - FinBankIQ_EDA - INFO - Detecting data quality issues for AdrBalUSD1MCnt of BTC
+2025-08-24 19:05:50,540 - FinBankIQ_EDA - INFO - Data quality check complete. Found 0 gaps and 0 suspicious patterns in AdrBalUSD1MCnt of BTC
+2025-08-24 19:05:50,540 - FinBankIQ_EDA - INFO - Data quality issues for AdrBalUSD1MCnt of BTC checked
+2025-08-24 19:05:50,540 - FinBankIQ_EDA - INFO - 
+Detecting data quality issues for AdrBalCnt of BTC...
+2025-08-24 19:05:50,540 - FinBankIQ_EDA - INFO - ----------------------------------------
+2025-08-24 19:05:50,540 - FinBankIQ_EDA - INFO - Detecting data quality issues for AdrBalCnt of BTC
+2025-08-24 19:05:50,546 - FinBankIQ_EDA - INFO - Data quality check complete. Found 0 gaps and 0 suspicious patterns in AdrBalCnt of BTC
+2025-08-24 19:05:50,546 - FinBankIQ_EDA - INFO - Data quality issues for AdrBalCnt of BTC checked
+2025-08-24 19:05:50,546 - FinBankIQ_EDA - INFO - 
+Detecting data quality issues for SplyAdrTop1Pct of BTC...
+2025-08-24 19:05:50,546 - FinBankIQ_EDA - INFO - ----------------------------------------
+2025-08-24 19:05:50,546 - FinBankIQ_EDA - INFO - Detecting data quality issues for SplyAdrTop1Pct of BTC
+2025-08-24 19:05:50,553 - FinBankIQ_EDA - INFO - Data quality check complete. Found 0 gaps and 0 suspicious patterns in SplyAdrTop1Pct of BTC
+2025-08-24 19:05:50,553 - FinBankIQ_EDA - INFO - Data quality issues for SplyAdrTop1Pct of BTC checked
+2025-08-24 19:05:50,553 - FinBankIQ_EDA - INFO - 
+Detecting data quality issues for SplyCur of BTC...
+2025-08-24 19:05:50,553 - FinBankIQ_EDA - INFO - ----------------------------------------
+2025-08-24 19:05:50,553 - FinBankIQ_EDA - INFO - Detecting data quality issues for SplyCur of BTC
+2025-08-24 19:05:50,559 - FinBankIQ_EDA - INFO - Data quality check complete. Found 0 gaps and 0 suspicious patterns in SplyCur of BTC
+2025-08-24 19:05:50,559 - FinBankIQ_EDA - INFO - Data quality issues for SplyCur of BTC checked
+2025-08-24 19:05:50,559 - FinBankIQ_EDA - INFO - 
+Detecting data quality issues for SplyAct180d of BTC...
+2025-08-24 19:05:50,559 - FinBankIQ_EDA - INFO - ----------------------------------------
+2025-08-24 19:05:50,559 - FinBankIQ_EDA - INFO - Detecting data quality issues for SplyAct180d of BTC
+2025-08-24 19:05:50,565 - FinBankIQ_EDA - INFO - Data quality check complete. Found 0 gaps and 0 suspicious patterns in SplyAct180d of BTC
+2025-08-24 19:05:50,565 - FinBankIQ_EDA - INFO - Data quality issues for SplyAct180d of BTC checked
+2025-08-24 19:05:50,566 - FinBankIQ_EDA - INFO - 
+Detecting data quality issues for SplyAct1yr of BTC...
+2025-08-24 19:05:50,566 - FinBankIQ_EDA - INFO - ----------------------------------------
+2025-08-24 19:05:50,566 - FinBankIQ_EDA - INFO - Detecting data quality issues for SplyAct1yr of BTC
+2025-08-24 19:05:50,572 - FinBankIQ_EDA - INFO - Data quality check complete. Found 0 gaps and 0 suspicious patterns in SplyAct1yr of BTC
+2025-08-24 19:05:50,572 - FinBankIQ_EDA - INFO - Data quality issues for SplyAct1yr of BTC checked
+2025-08-24 19:05:50,572 - FinBankIQ_EDA - INFO - 
+Detecting data quality issues for SplyAct2yr of BTC...
+2025-08-24 19:05:50,572 - FinBankIQ_EDA - INFO - ----------------------------------------
+2025-08-24 19:05:50,572 - FinBankIQ_EDA - INFO - Detecting data quality issues for SplyAct2yr of BTC
+2025-08-24 19:05:50,578 - FinBankIQ_EDA - INFO - Data quality check complete. Found 0 gaps and 0 suspicious patterns in SplyAct2yr of BTC
+2025-08-24 19:05:50,578 - FinBankIQ_EDA - INFO - Data quality issues for SplyAct2yr of BTC checked
+2025-08-24 19:05:50,578 - FinBankIQ_EDA - INFO - 
+Detecting data quality issues for CapMVRVCur of BTC...
+2025-08-24 19:05:50,578 - FinBankIQ_EDA - INFO - ----------------------------------------
+2025-08-24 19:05:50,578 - FinBankIQ_EDA - INFO - Detecting data quality issues for CapMVRVCur of BTC
+2025-08-24 19:05:50,583 - FinBankIQ_EDA - INFO - Data quality check complete. Found 0 gaps and 0 suspicious patterns in CapMVRVCur of BTC
+2025-08-24 19:05:50,583 - FinBankIQ_EDA - INFO - Data quality issues for CapMVRVCur of BTC checked
+2025-08-24 19:05:50,583 - FinBankIQ_EDA - INFO - 
+Detecting data quality issues for NVTAdj90 of BTC...
+2025-08-24 19:05:50,583 - FinBankIQ_EDA - INFO - ----------------------------------------
+2025-08-24 19:05:50,583 - FinBankIQ_EDA - INFO - Detecting data quality issues for NVTAdj90 of BTC
+2025-08-24 19:05:50,589 - FinBankIQ_EDA - INFO - Data quality check complete. Found 0 gaps and 0 suspicious patterns in NVTAdj90 of BTC
+2025-08-24 19:05:50,589 - FinBankIQ_EDA - INFO - Data quality issues for NVTAdj90 of BTC checked
+2025-08-24 19:05:50,589 - FinBankIQ_EDA - INFO - 
+Detecting data quality issues for VtyDayRet30d of BTC...
+2025-08-24 19:05:50,589 - FinBankIQ_EDA - INFO - ----------------------------------------
+2025-08-24 19:05:50,589 - FinBankIQ_EDA - INFO - Detecting data quality issues for VtyDayRet30d of BTC
+2025-08-24 19:05:50,595 - FinBankIQ_EDA - INFO - Data quality check complete. Found 0 gaps and 0 suspicious patterns in VtyDayRet30d of BTC
+2025-08-24 19:05:50,595 - FinBankIQ_EDA - INFO - Data quality issues for VtyDayRet30d of BTC checked
+2025-08-24 19:05:50,595 - FinBankIQ_EDA - INFO - 
+Analyzing PriceUSD of BTC...
+2025-08-24 19:05:50,595 - FinBankIQ_EDA - INFO - ----------------------------------------
+2025-08-24 19:05:50,596 - FinBankIQ_EDA - INFO - Calculating 7-day moving averages for the PriceUSD of BTC
+2025-08-24 19:05:50,599 - FinBankIQ_EDA - INFO - Calculated 7-day moving averages for the PriceUSD of BTC
+2025-08-24 19:05:50,599 - FinBankIQ_EDA - INFO - Calculating 30-day moving averages for the PriceUSD of BTC
+2025-08-24 19:05:50,602 - FinBankIQ_EDA - INFO - Calculated 30-day moving averages for the PriceUSD of BTC
+2025-08-24 19:05:50,603 - FinBankIQ_EDA - INFO - Calculating 90-day moving averages for the PriceUSD of BTC
+2025-08-24 19:05:50,606 - FinBankIQ_EDA - INFO - Calculated 90-day moving averages for the PriceUSD of BTC
+2025-08-24 19:05:50,619 - FinBankIQ_EDA - INFO - 
+Analyzing TxCnt of BTC...
+2025-08-24 19:05:50,619 - FinBankIQ_EDA - INFO - ----------------------------------------
+2025-08-24 19:05:50,619 - FinBankIQ_EDA - INFO - Calculating 7-day moving averages for the TxCnt of BTC
+2025-08-24 19:05:50,622 - FinBankIQ_EDA - INFO - Calculated 7-day moving averages for the TxCnt of BTC
+2025-08-24 19:05:50,622 - FinBankIQ_EDA - INFO - Calculating 30-day moving averages for the TxCnt of BTC
+2025-08-24 19:05:50,625 - FinBankIQ_EDA - INFO - Calculated 30-day moving averages for the TxCnt of BTC
+2025-08-24 19:05:50,627 - FinBankIQ_EDA - INFO - Calculating 90-day moving averages for the TxCnt of BTC
+2025-08-24 19:05:50,630 - FinBankIQ_EDA - INFO - Calculated 90-day moving averages for the TxCnt of BTC
+2025-08-24 19:05:50,639 - FinBankIQ_EDA - INFO - 
+Analyzing AdrActCnt of BTC...
+2025-08-24 19:05:50,639 - FinBankIQ_EDA - INFO - ----------------------------------------
+2025-08-24 19:05:50,640 - FinBankIQ_EDA - INFO - Calculating 7-day moving averages for the AdrActCnt of BTC
+2025-08-24 19:05:50,642 - FinBankIQ_EDA - INFO - Calculated 7-day moving averages for the AdrActCnt of BTC
+2025-08-24 19:05:50,642 - FinBankIQ_EDA - INFO - Calculating 30-day moving averages for the AdrActCnt of BTC
+2025-08-24 19:05:50,645 - FinBankIQ_EDA - INFO - Calculated 30-day moving averages for the AdrActCnt of BTC
+2025-08-24 19:05:50,646 - FinBankIQ_EDA - INFO - Calculating 90-day moving averages for the AdrActCnt of BTC
+2025-08-24 19:05:50,649 - FinBankIQ_EDA - INFO - Calculated 90-day moving averages for the AdrActCnt of BTC
+2025-08-24 19:05:50,658 - FinBankIQ_EDA - INFO - 
+Analyzing CapMrktCurUSD of BTC...
+2025-08-24 19:05:50,658 - FinBankIQ_EDA - INFO - ----------------------------------------
+2025-08-24 19:05:50,658 - FinBankIQ_EDA - INFO - Calculating 7-day moving averages for the CapMrktCurUSD of BTC
+2025-08-24 19:05:50,661 - FinBankIQ_EDA - INFO - Calculated 7-day moving averages for the CapMrktCurUSD of BTC
+2025-08-24 19:05:50,661 - FinBankIQ_EDA - INFO - Calculating 30-day moving averages for the CapMrktCurUSD of BTC
+2025-08-24 19:05:50,664 - FinBankIQ_EDA - INFO - Calculated 30-day moving averages for the CapMrktCurUSD of BTC
+2025-08-24 19:05:50,665 - FinBankIQ_EDA - INFO - Calculating 90-day moving averages for the CapMrktCurUSD of BTC
+2025-08-24 19:05:50,668 - FinBankIQ_EDA - INFO - Calculated 90-day moving averages for the CapMrktCurUSD of BTC
+2025-08-24 19:05:50,679 - FinBankIQ_EDA - INFO - 
+Analyzing ROI1yr of BTC...
+2025-08-24 19:05:50,679 - FinBankIQ_EDA - INFO - ----------------------------------------
+2025-08-24 19:05:50,679 - FinBankIQ_EDA - INFO - Calculating 7-day moving averages for the ROI1yr of BTC
+2025-08-24 19:05:50,682 - FinBankIQ_EDA - INFO - Calculated 7-day moving averages for the ROI1yr of BTC
+2025-08-24 19:05:50,682 - FinBankIQ_EDA - INFO - Calculating 30-day moving averages for the ROI1yr of BTC
+2025-08-24 19:05:50,685 - FinBankIQ_EDA - INFO - Calculated 30-day moving averages for the ROI1yr of BTC
+2025-08-24 19:05:50,686 - FinBankIQ_EDA - INFO - Calculating 90-day moving averages for the ROI1yr of BTC
+2025-08-24 19:05:50,688 - FinBankIQ_EDA - INFO - Calculated 90-day moving averages for the ROI1yr of BTC
+2025-08-24 19:05:50,698 - FinBankIQ_EDA - INFO - 
+Analyzing ROI30d of BTC...
+2025-08-24 19:05:50,698 - FinBankIQ_EDA - INFO - ----------------------------------------
+2025-08-24 19:05:50,698 - FinBankIQ_EDA - INFO - Calculating 7-day moving averages for the ROI30d of BTC
+2025-08-24 19:05:50,701 - FinBankIQ_EDA - INFO - Calculated 7-day moving averages for the ROI30d of BTC
+2025-08-24 19:05:50,701 - FinBankIQ_EDA - INFO - Calculating 30-day moving averages for the ROI30d of BTC
+2025-08-24 19:05:50,704 - FinBankIQ_EDA - INFO - Calculated 30-day moving averages for the ROI30d of BTC
+2025-08-24 19:05:50,705 - FinBankIQ_EDA - INFO - Calculating 90-day moving averages for the ROI30d of BTC
+2025-08-24 19:05:50,708 - FinBankIQ_EDA - INFO - Calculated 90-day moving averages for the ROI30d of BTC
+2025-08-24 19:05:50,718 - FinBankIQ_EDA - INFO - 
+Analyzing AdrBal1in100KCnt of BTC...
+2025-08-24 19:05:50,718 - FinBankIQ_EDA - INFO - ----------------------------------------
+2025-08-24 19:05:50,718 - FinBankIQ_EDA - INFO - Calculating 7-day moving averages for the AdrBal1in100KCnt of BTC
+2025-08-24 19:05:50,721 - FinBankIQ_EDA - INFO - Calculated 7-day moving averages for the AdrBal1in100KCnt of BTC
+2025-08-24 19:05:50,721 - FinBankIQ_EDA - INFO - Calculating 30-day moving averages for the AdrBal1in100KCnt of BTC
+2025-08-24 19:05:50,724 - FinBankIQ_EDA - INFO - Calculated 30-day moving averages for the AdrBal1in100KCnt of BTC
+2025-08-24 19:05:50,725 - FinBankIQ_EDA - INFO - Calculating 90-day moving averages for the AdrBal1in100KCnt of BTC
+2025-08-24 19:05:50,728 - FinBankIQ_EDA - INFO - Calculated 90-day moving averages for the AdrBal1in100KCnt of BTC
+2025-08-24 19:05:50,737 - FinBankIQ_EDA - INFO - 
+Analyzing AdrBal1in10KCnt of BTC...
+2025-08-24 19:05:50,737 - FinBankIQ_EDA - INFO - ----------------------------------------
+2025-08-24 19:05:50,737 - FinBankIQ_EDA - INFO - Calculating 7-day moving averages for the AdrBal1in10KCnt of BTC
+2025-08-24 19:05:50,740 - FinBankIQ_EDA - INFO - Calculated 7-day moving averages for the AdrBal1in10KCnt of BTC
+2025-08-24 19:05:50,740 - FinBankIQ_EDA - INFO - Calculating 30-day moving averages for the AdrBal1in10KCnt of BTC
+2025-08-24 19:05:50,743 - FinBankIQ_EDA - INFO - Calculated 30-day moving averages for the AdrBal1in10KCnt of BTC
+2025-08-24 19:05:50,744 - FinBankIQ_EDA - INFO - Calculating 90-day moving averages for the AdrBal1in10KCnt of BTC
+2025-08-24 19:05:50,747 - FinBankIQ_EDA - INFO - Calculated 90-day moving averages for the AdrBal1in10KCnt of BTC
+2025-08-24 19:05:50,756 - FinBankIQ_EDA - INFO - 
+Analyzing AdrBalUSD10KCnt of BTC...
+2025-08-24 19:05:50,756 - FinBankIQ_EDA - INFO - ----------------------------------------
+2025-08-24 19:05:50,756 - FinBankIQ_EDA - INFO - Calculating 7-day moving averages for the AdrBalUSD10KCnt of BTC
+2025-08-24 19:05:50,759 - FinBankIQ_EDA - INFO - Calculated 7-day moving averages for the AdrBalUSD10KCnt of BTC
+2025-08-24 19:05:50,759 - FinBankIQ_EDA - INFO - Calculating 30-day moving averages for the AdrBalUSD10KCnt of BTC
+2025-08-24 19:05:50,762 - FinBankIQ_EDA - INFO - Calculated 30-day moving averages for the AdrBalUSD10KCnt of BTC
+2025-08-24 19:05:50,763 - FinBankIQ_EDA - INFO - Calculating 90-day moving averages for the AdrBalUSD10KCnt of BTC
+2025-08-24 19:05:50,766 - FinBankIQ_EDA - INFO - Calculated 90-day moving averages for the AdrBalUSD10KCnt of BTC
+2025-08-24 19:05:50,776 - FinBankIQ_EDA - INFO - 
+Analyzing AdrBalUSD100KCnt of BTC...
+2025-08-24 19:05:50,776 - FinBankIQ_EDA - INFO - ----------------------------------------
+2025-08-24 19:05:50,776 - FinBankIQ_EDA - INFO - Calculating 7-day moving averages for the AdrBalUSD100KCnt of BTC
+2025-08-24 19:05:50,780 - FinBankIQ_EDA - INFO - Calculated 7-day moving averages for the AdrBalUSD100KCnt of BTC
+2025-08-24 19:05:50,780 - FinBankIQ_EDA - INFO - Calculating 30-day moving averages for the AdrBalUSD100KCnt of BTC
+2025-08-24 19:05:50,782 - FinBankIQ_EDA - INFO - Calculated 30-day moving averages for the AdrBalUSD100KCnt of BTC
+2025-08-24 19:05:50,784 - FinBankIQ_EDA - INFO - Calculating 90-day moving averages for the AdrBalUSD100KCnt of BTC
+2025-08-24 19:05:50,787 - FinBankIQ_EDA - INFO - Calculated 90-day moving averages for the AdrBalUSD100KCnt of BTC
+2025-08-24 19:05:50,796 - FinBankIQ_EDA - INFO - 
+Analyzing AdrBalUSD1MCnt of BTC...
+2025-08-24 19:05:50,796 - FinBankIQ_EDA - INFO - ----------------------------------------
+2025-08-24 19:05:50,796 - FinBankIQ_EDA - INFO - Calculating 7-day moving averages for the AdrBalUSD1MCnt of BTC
+2025-08-24 19:05:50,800 - FinBankIQ_EDA - INFO - Calculated 7-day moving averages for the AdrBalUSD1MCnt of BTC
+2025-08-24 19:05:50,800 - FinBankIQ_EDA - INFO - Calculating 30-day moving averages for the AdrBalUSD1MCnt of BTC
+2025-08-24 19:05:50,803 - FinBankIQ_EDA - INFO - Calculated 30-day moving averages for the AdrBalUSD1MCnt of BTC
+2025-08-24 19:05:50,804 - FinBankIQ_EDA - INFO - Calculating 90-day moving averages for the AdrBalUSD1MCnt of BTC
+2025-08-24 19:05:50,807 - FinBankIQ_EDA - INFO - Calculated 90-day moving averages for the AdrBalUSD1MCnt of BTC
+2025-08-24 19:05:50,816 - FinBankIQ_EDA - INFO - 
+Analyzing AdrBalCnt of BTC...
+2025-08-24 19:05:50,816 - FinBankIQ_EDA - INFO - ----------------------------------------
+2025-08-24 19:05:50,816 - FinBankIQ_EDA - INFO - Calculating 7-day moving averages for the AdrBalCnt of BTC
+2025-08-24 19:05:50,819 - FinBankIQ_EDA - INFO - Calculated 7-day moving averages for the AdrBalCnt of BTC
+2025-08-24 19:05:50,819 - FinBankIQ_EDA - INFO - Calculating 30-day moving averages for the AdrBalCnt of BTC
+2025-08-24 19:05:50,822 - FinBankIQ_EDA - INFO - Calculated 30-day moving averages for the AdrBalCnt of BTC
+2025-08-24 19:05:50,823 - FinBankIQ_EDA - INFO - Calculating 90-day moving averages for the AdrBalCnt of BTC
+2025-08-24 19:05:50,826 - FinBankIQ_EDA - INFO - Calculated 90-day moving averages for the AdrBalCnt of BTC
+2025-08-24 19:05:50,836 - FinBankIQ_EDA - INFO - 
+Analyzing SplyAdrTop1Pct of BTC...
+2025-08-24 19:05:50,836 - FinBankIQ_EDA - INFO - ----------------------------------------
+2025-08-24 19:05:50,836 - FinBankIQ_EDA - INFO - Calculating 7-day moving averages for the SplyAdrTop1Pct of BTC
+2025-08-24 19:05:50,839 - FinBankIQ_EDA - INFO - Calculated 7-day moving averages for the SplyAdrTop1Pct of BTC
+2025-08-24 19:05:50,839 - FinBankIQ_EDA - INFO - Calculating 30-day moving averages for the SplyAdrTop1Pct of BTC
+2025-08-24 19:05:50,843 - FinBankIQ_EDA - INFO - Calculated 30-day moving averages for the SplyAdrTop1Pct of BTC
+2025-08-24 19:05:50,844 - FinBankIQ_EDA - INFO - Calculating 90-day moving averages for the SplyAdrTop1Pct of BTC
+2025-08-24 19:05:50,847 - FinBankIQ_EDA - INFO - Calculated 90-day moving averages for the SplyAdrTop1Pct of BTC
+2025-08-24 19:05:50,857 - FinBankIQ_EDA - INFO - 
+Analyzing SplyCur of BTC...
+2025-08-24 19:05:50,857 - FinBankIQ_EDA - INFO - ----------------------------------------
+2025-08-24 19:05:50,857 - FinBankIQ_EDA - INFO - Calculating 7-day moving averages for the SplyCur of BTC
+2025-08-24 19:05:50,860 - FinBankIQ_EDA - INFO - Calculated 7-day moving averages for the SplyCur of BTC
+2025-08-24 19:05:50,860 - FinBankIQ_EDA - INFO - Calculating 30-day moving averages for the SplyCur of BTC
+2025-08-24 19:05:50,863 - FinBankIQ_EDA - INFO - Calculated 30-day moving averages for the SplyCur of BTC
+2025-08-24 19:05:50,865 - FinBankIQ_EDA - INFO - Calculating 90-day moving averages for the SplyCur of BTC
+2025-08-24 19:05:50,868 - FinBankIQ_EDA - INFO - Calculated 90-day moving averages for the SplyCur of BTC
+2025-08-24 19:05:50,878 - FinBankIQ_EDA - INFO - 
+Analyzing SplyAct180d of BTC...
+2025-08-24 19:05:50,878 - FinBankIQ_EDA - INFO - ----------------------------------------
+2025-08-24 19:05:50,878 - FinBankIQ_EDA - INFO - Calculating 7-day moving averages for the SplyAct180d of BTC
+2025-08-24 19:05:50,881 - FinBankIQ_EDA - INFO - Calculated 7-day moving averages for the SplyAct180d of BTC
+2025-08-24 19:05:50,881 - FinBankIQ_EDA - INFO - Calculating 30-day moving averages for the SplyAct180d of BTC
+2025-08-24 19:05:50,884 - FinBankIQ_EDA - INFO - Calculated 30-day moving averages for the SplyAct180d of BTC
+2025-08-24 19:05:50,885 - FinBankIQ_EDA - INFO - Calculating 90-day moving averages for the SplyAct180d of BTC
+2025-08-24 19:05:50,888 - FinBankIQ_EDA - INFO - Calculated 90-day moving averages for the SplyAct180d of BTC
+2025-08-24 19:05:50,898 - FinBankIQ_EDA - INFO - 
+Analyzing SplyAct1yr of BTC...
+2025-08-24 19:05:50,898 - FinBankIQ_EDA - INFO - ----------------------------------------
+2025-08-24 19:05:50,898 - FinBankIQ_EDA - INFO - Calculating 7-day moving averages for the SplyAct1yr of BTC
+2025-08-24 19:05:50,901 - FinBankIQ_EDA - INFO - Calculated 7-day moving averages for the SplyAct1yr of BTC
+2025-08-24 19:05:50,901 - FinBankIQ_EDA - INFO - Calculating 30-day moving averages for the SplyAct1yr of BTC
+2025-08-24 19:05:50,904 - FinBankIQ_EDA - INFO - Calculated 30-day moving averages for the SplyAct1yr of BTC
+2025-08-24 19:05:50,906 - FinBankIQ_EDA - INFO - Calculating 90-day moving averages for the SplyAct1yr of BTC
+2025-08-24 19:05:50,908 - FinBankIQ_EDA - INFO - Calculated 90-day moving averages for the SplyAct1yr of BTC
+2025-08-24 19:05:50,919 - FinBankIQ_EDA - INFO - 
+Analyzing SplyAct2yr of BTC...
+2025-08-24 19:05:50,919 - FinBankIQ_EDA - INFO - ----------------------------------------
+2025-08-24 19:05:50,919 - FinBankIQ_EDA - INFO - Calculating 7-day moving averages for the SplyAct2yr of BTC
+2025-08-24 19:05:50,922 - FinBankIQ_EDA - INFO - Calculated 7-day moving averages for the SplyAct2yr of BTC
+2025-08-24 19:05:50,922 - FinBankIQ_EDA - INFO - Calculating 30-day moving averages for the SplyAct2yr of BTC
+2025-08-24 19:05:50,925 - FinBankIQ_EDA - INFO - Calculated 30-day moving averages for the SplyAct2yr of BTC
+2025-08-24 19:05:50,927 - FinBankIQ_EDA - INFO - Calculating 90-day moving averages for the SplyAct2yr of BTC
+2025-08-24 19:05:50,929 - FinBankIQ_EDA - INFO - Calculated 90-day moving averages for the SplyAct2yr of BTC
+2025-08-24 19:05:50,939 - FinBankIQ_EDA - INFO - 
+Analyzing CapMVRVCur of BTC...
+2025-08-24 19:05:50,939 - FinBankIQ_EDA - INFO - ----------------------------------------
+2025-08-24 19:05:50,940 - FinBankIQ_EDA - INFO - Calculating 7-day moving averages for the CapMVRVCur of BTC
+2025-08-24 19:05:50,943 - FinBankIQ_EDA - INFO - Calculated 7-day moving averages for the CapMVRVCur of BTC
+2025-08-24 19:05:50,943 - FinBankIQ_EDA - INFO - Calculating 30-day moving averages for the CapMVRVCur of BTC
+2025-08-24 19:05:50,946 - FinBankIQ_EDA - INFO - Calculated 30-day moving averages for the CapMVRVCur of BTC
+2025-08-24 19:05:50,947 - FinBankIQ_EDA - INFO - Calculating 90-day moving averages for the CapMVRVCur of BTC
+2025-08-24 19:05:50,950 - FinBankIQ_EDA - INFO - Calculated 90-day moving averages for the CapMVRVCur of BTC
+2025-08-24 19:05:50,960 - FinBankIQ_EDA - INFO - 
+Analyzing NVTAdj90 of BTC...
+2025-08-24 19:05:50,960 - FinBankIQ_EDA - INFO - ----------------------------------------
+2025-08-24 19:05:50,960 - FinBankIQ_EDA - INFO - Calculating 7-day moving averages for the NVTAdj90 of BTC
+2025-08-24 19:05:50,963 - FinBankIQ_EDA - INFO - Calculated 7-day moving averages for the NVTAdj90 of BTC
+2025-08-24 19:05:50,963 - FinBankIQ_EDA - INFO - Calculating 30-day moving averages for the NVTAdj90 of BTC
+2025-08-24 19:05:50,966 - FinBankIQ_EDA - INFO - Calculated 30-day moving averages for the NVTAdj90 of BTC
+2025-08-24 19:05:50,967 - FinBankIQ_EDA - INFO - Calculating 90-day moving averages for the NVTAdj90 of BTC
+2025-08-24 19:05:50,970 - FinBankIQ_EDA - INFO - Calculated 90-day moving averages for the NVTAdj90 of BTC
+2025-08-24 19:05:50,979 - FinBankIQ_EDA - INFO - 
+Analyzing PriceUSD of BTC...
+2025-08-24 19:05:50,979 - FinBankIQ_EDA - INFO - ----------------------------------------
+2025-08-24 19:05:50,979 - FinBankIQ_EDA - INFO - 
+Computing lag and volatility for PriceUSD of BTC...
+2025-08-24 19:05:50,979 - FinBankIQ_EDA - INFO - ----------------------------------------
+2025-08-24 19:05:50,979 - FinBankIQ_EDA - INFO - Computing lag and volatility for the PriceUSD of BTC
+2025-08-24 19:05:50,986 - FinBankIQ_EDA - INFO - Computed lag and volatility for the PriceUSD of BTC
+2025-08-24 19:05:50,990 - FinBankIQ_EDA - INFO - Lag and Volatility for PriceUSD of BTC computed
+2025-08-24 19:05:50,995 - FinBankIQ_EDA - INFO - 
+Analyzing AdrActCnt of BTC...
+2025-08-24 19:05:50,995 - FinBankIQ_EDA - INFO - ----------------------------------------
+2025-08-24 19:05:50,996 - FinBankIQ_EDA - INFO - 
+Computing lag and volatility for AdrActCnt of BTC...
+2025-08-24 19:05:50,996 - FinBankIQ_EDA - INFO - ----------------------------------------
+2025-08-24 19:05:50,996 - FinBankIQ_EDA - INFO - Computing lag and volatility for the AdrActCnt of BTC
+2025-08-24 19:05:51,001 - FinBankIQ_EDA - INFO - Computed lag and volatility for the AdrActCnt of BTC
+2025-08-24 19:05:51,006 - FinBankIQ_EDA - INFO - Lag and Volatility for AdrActCnt of BTC computed
+2025-08-24 19:05:51,010 - FinBankIQ_EDA - INFO - 
+Analyzing AdrBalUSD10KCnt of BTC...
+2025-08-24 19:05:51,010 - FinBankIQ_EDA - INFO - ----------------------------------------
+2025-08-24 19:05:51,011 - FinBankIQ_EDA - INFO - 
+Computing lag and volatility for AdrBalUSD10KCnt of BTC...
+2025-08-24 19:05:51,011 - FinBankIQ_EDA - INFO - ----------------------------------------
+2025-08-24 19:05:51,011 - FinBankIQ_EDA - INFO - Computing lag and volatility for the AdrBalUSD10KCnt of BTC
+2025-08-24 19:05:51,017 - FinBankIQ_EDA - INFO - Computed lag and volatility for the AdrBalUSD10KCnt of BTC
+2025-08-24 19:05:51,021 - FinBankIQ_EDA - INFO - Lag and Volatility for AdrBalUSD10KCnt of BTC computed
+2025-08-24 19:05:51,025 - FinBankIQ_EDA - INFO - 
+Analyzing AdrBalUSD100KCnt of BTC...
+2025-08-24 19:05:51,025 - FinBankIQ_EDA - INFO - ----------------------------------------
+2025-08-24 19:05:51,026 - FinBankIQ_EDA - INFO - 
+Computing lag and volatility for AdrBalUSD100KCnt of BTC...
+2025-08-24 19:05:51,026 - FinBankIQ_EDA - INFO - ----------------------------------------
+2025-08-24 19:05:51,026 - FinBankIQ_EDA - INFO - Computing lag and volatility for the AdrBalUSD100KCnt of BTC
+2025-08-24 19:05:51,033 - FinBankIQ_EDA - INFO - Computed lag and volatility for the AdrBalUSD100KCnt of BTC
+2025-08-24 19:05:51,038 - FinBankIQ_EDA - INFO - Lag and Volatility for AdrBalUSD100KCnt of BTC computed
+2025-08-24 19:05:51,041 - FinBankIQ_EDA - INFO - 
+Analyzing VtyDayRet30d of BTC...
+2025-08-24 19:05:51,041 - FinBankIQ_EDA - INFO - ----------------------------------------
+2025-08-24 19:05:51,042 - FinBankIQ_EDA - INFO - 
+Computing lag and volatility for VtyDayRet30d of BTC...
+2025-08-24 19:05:51,042 - FinBankIQ_EDA - INFO - ----------------------------------------
+2025-08-24 19:05:51,042 - FinBankIQ_EDA - INFO - Computing lag and volatility for the VtyDayRet30d of BTC
+2025-08-24 19:05:51,049 - FinBankIQ_EDA - INFO - Computed lag and volatility for the VtyDayRet30d of BTC
+2025-08-24 19:05:51,054 - FinBankIQ_EDA - INFO - Lag and Volatility for VtyDayRet30d of BTC computed
+2025-08-24 19:05:51,059 - FinBankIQ_EDA - INFO - 
+Analyzing CapMVRVCur of BTC...
+2025-08-24 19:05:51,059 - FinBankIQ_EDA - INFO - ----------------------------------------
+2025-08-24 19:05:51,059 - FinBankIQ_EDA - INFO - 
+Computing lag and volatility for CapMVRVCur of BTC...
+2025-08-24 19:05:51,059 - FinBankIQ_EDA - INFO - ----------------------------------------
+2025-08-24 19:05:51,059 - FinBankIQ_EDA - INFO - Computing lag and volatility for the CapMVRVCur of BTC
+2025-08-24 19:05:51,065 - FinBankIQ_EDA - INFO - Computed lag and volatility for the CapMVRVCur of BTC
+2025-08-24 19:05:51,070 - FinBankIQ_EDA - INFO - Lag and Volatility for CapMVRVCur of BTC computed
+2025-08-24 19:05:51,075 - FinBankIQ_EDA - INFO - 
+Analyzing AdrBal1in10KCnt of BTC...
+2025-08-24 19:05:51,075 - FinBankIQ_EDA - INFO - ----------------------------------------
+2025-08-24 19:05:51,076 - FinBankIQ_EDA - INFO - 
+Computing lag and volatility for AdrBal1in10KCnt of BTC...
+2025-08-24 19:05:51,076 - FinBankIQ_EDA - INFO - ----------------------------------------
+2025-08-24 19:05:51,076 - FinBankIQ_EDA - INFO - Computing lag and volatility for the AdrBal1in10KCnt of BTC
+2025-08-24 19:05:51,082 - FinBankIQ_EDA - INFO - Computed lag and volatility for the AdrBal1in10KCnt of BTC
+2025-08-24 19:05:51,087 - FinBankIQ_EDA - INFO - Lag and Volatility for AdrBal1in10KCnt of BTC computed
+2025-08-24 19:05:51,093 - FinBankIQ_EDA - INFO - 
+Calculating 30-day rolling deltas for PriceUSD of BTC...
+2025-08-24 19:05:51,093 - FinBankIQ_EDA - INFO - ----------------------------------------
+2025-08-24 19:05:51,093 - FinBankIQ_EDA - INFO - Calculating 30-day rolling deltas for PriceUSD of BTC
+2025-08-24 19:05:51,096 - FinBankIQ_EDA - INFO - Calculated 30-day rolling deltas for PriceUSD of BTC
+2025-08-24 19:05:51,100 - FinBankIQ_EDA - INFO - Rolling deltas for PriceUSD of BTC computed
+2025-08-24 19:05:51,102 - FinBankIQ_EDA - INFO - 
+Calculating 30-day rolling deltas for AdrActCnt of BTC...
+2025-08-24 19:05:51,103 - FinBankIQ_EDA - INFO - ----------------------------------------
+2025-08-24 19:05:51,103 - FinBankIQ_EDA - INFO - Calculating 30-day rolling deltas for AdrActCnt of BTC
+2025-08-24 19:05:51,106 - FinBankIQ_EDA - INFO - Calculated 30-day rolling deltas for AdrActCnt of BTC
+2025-08-24 19:05:51,110 - FinBankIQ_EDA - INFO - Rolling deltas for AdrActCnt of BTC computed
+2025-08-24 19:05:51,112 - FinBankIQ_EDA - INFO - 
+Calculating 30-day rolling deltas for AdrBalUSD10KCnt of BTC...
+2025-08-24 19:05:51,112 - FinBankIQ_EDA - INFO - ----------------------------------------
+2025-08-24 19:05:51,112 - FinBankIQ_EDA - INFO - Calculating 30-day rolling deltas for AdrBalUSD10KCnt of BTC
+2025-08-24 19:05:51,116 - FinBankIQ_EDA - INFO - Calculated 30-day rolling deltas for AdrBalUSD10KCnt of BTC
+2025-08-24 19:05:51,120 - FinBankIQ_EDA - INFO - Rolling deltas for AdrBalUSD10KCnt of BTC computed
+2025-08-24 19:05:51,122 - FinBankIQ_EDA - INFO - 
+Calculating 30-day rolling deltas for AdrBalUSD100KCnt of BTC...
+2025-08-24 19:05:51,122 - FinBankIQ_EDA - INFO - ----------------------------------------
+2025-08-24 19:05:51,122 - FinBankIQ_EDA - INFO - Calculating 30-day rolling deltas for AdrBalUSD100KCnt of BTC
+2025-08-24 19:05:51,126 - FinBankIQ_EDA - INFO - Calculated 30-day rolling deltas for AdrBalUSD100KCnt of BTC
+2025-08-24 19:05:51,130 - FinBankIQ_EDA - INFO - Rolling deltas for AdrBalUSD100KCnt of BTC computed
+2025-08-24 19:05:51,132 - FinBankIQ_EDA - INFO - 
+Calculating 30-day rolling deltas for VtyDayRet30d of BTC...
+2025-08-24 19:05:51,133 - FinBankIQ_EDA - INFO - ----------------------------------------
+2025-08-24 19:05:51,133 - FinBankIQ_EDA - INFO - Calculating 30-day rolling deltas for VtyDayRet30d of BTC
+2025-08-24 19:05:51,136 - FinBankIQ_EDA - INFO - Calculated 30-day rolling deltas for VtyDayRet30d of BTC
+2025-08-24 19:05:51,140 - FinBankIQ_EDA - INFO - Rolling deltas for VtyDayRet30d of BTC computed
+2025-08-24 19:05:51,143 - FinBankIQ_EDA - INFO - 
+Calculating 30-day rolling deltas for CapMVRVCur of BTC...
+2025-08-24 19:05:51,143 - FinBankIQ_EDA - INFO - ----------------------------------------
+2025-08-24 19:05:51,143 - FinBankIQ_EDA - INFO - Calculating 30-day rolling deltas for CapMVRVCur of BTC
+2025-08-24 19:05:51,146 - FinBankIQ_EDA - INFO - Calculated 30-day rolling deltas for CapMVRVCur of BTC
+2025-08-24 19:05:51,149 - FinBankIQ_EDA - INFO - Rolling deltas for CapMVRVCur of BTC computed
+2025-08-24 19:05:51,152 - FinBankIQ_EDA - INFO - 
+Calculating 30-day rolling deltas for AdrBal1in10KCnt of BTC...
+2025-08-24 19:05:51,152 - FinBankIQ_EDA - INFO - ----------------------------------------
+2025-08-24 19:05:51,152 - FinBankIQ_EDA - INFO - Calculating 30-day rolling deltas for AdrBal1in10KCnt of BTC
+2025-08-24 19:05:51,156 - FinBankIQ_EDA - INFO - Calculated 30-day rolling deltas for AdrBal1in10KCnt of BTC
+2025-08-24 19:05:51,159 - FinBankIQ_EDA - INFO - Rolling deltas for AdrBal1in10KCnt of BTC computed
+2025-08-24 19:05:51,162 - FinBankIQ_EDA - INFO - SQL queries completed successfully
