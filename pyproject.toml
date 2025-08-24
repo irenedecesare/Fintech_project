@@ -17,84 +17,31 @@ dependencies = [
     # Core Data Processing
     "pandas>=2.0.0,<3.0.0",
     "numpy>=1.24.0,<2.0.0",
-    "scipy>=1.10.0,<2.0.0",
     
     # Database & SQL
     "sqlalchemy>=2.0.0,<3.0.0",
     
     # HTTP Requests & Data Fetching
     "requests>=2.28.0,<3.0.0",
-    "urllib3>=1.26.0,<3.0.0",
     
-    # Machine Learning & Statistics
+    # Machine Learning
     "scikit-learn>=1.3.0,<2.0.0",
     "joblib>=1.3.0,<2.0.0",
     
     # Data Visualization
     "matplotlib>=3.6.0,<4.0.0",
     "seaborn>=0.12.0,<1.0.0",
-    "plotly>=5.15.0,<6.0.0",
     
-    # Time Series & Financial Analysis
-    "statsmodels>=0.14.0,<1.0.0",
-    
-    # Utility Libraries
-    "pathlib2>=2.3.7,<3.0.0",
-    "python-dateutil>=2.8.0,<3.0.0",
-    "pytz>=2023.3",
-    
-    # Data Quality & Validation
-    "great-expectations>=0.17.0,<1.0.0",
-    
-    # Jupyter & Interactive Analysis
+    # Jupyter & Interactive Analysis (optional)
     "jupyter>=1.0.0,<2.0.0",
     "ipykernel>=6.25.0,<7.0.0",
-    "ipywidgets>=8.1.0,<9.0.0",
-    
-    # Configuration & Environment
-    "python-dotenv>=1.0.0,<2.0.0",
-    "pydantic>=2.0.0,<3.0.0",
-    
-    # Logging & Monitoring
-    "loguru>=0.7.0,<1.0.0",
-    
-    # Performance & Optimization
-    "numba>=0.57.0,<1.0.0",
-    "cython>=3.0.0,<4.0.0",
-    
-    # Data Formats
-    "openpyxl>=3.1.0,<4.0.0",
-    "xlrd>=2.0.0,<3.0.0",
-    "lxml>=4.9.0,<5.0.0",
-    "beautifulsoup4>=4.12.0,<5.0.0",
-    
-    # API & Web Framework
-    "fastapi>=0.100.0,<1.0.0",
-    "uvicorn>=0.23.0,<1.0.0",
-    "pydantic-settings>=2.0.0,<3.0.0",
-    
-    # Security
-    "cryptography>=41.0.0,<42.0.0",
-    
-    # Memory & Performance Monitoring
-    "psutil>=5.9.0,<6.0.0",
-    "memory-profiler>=0.61.0,<1.0.0",
-    
-    # Additional useful libraries
-    "tqdm>=4.65.0,<5.0.0",
-    "pyyaml>=6.0,<7.0",
-    "click>=8.1.0,<9.0.0",
 ]
 
 [project.optional-dependencies]
 dev = [
     "pytest>=7.4.0,<8.0.0",
-    "pytest-cov>=4.1.0,<5.0.0",
     "black>=23.0.0,<24.0.0",
     "flake8>=6.0.0,<7.0.0",
-    "mypy>=1.5.0,<2.0.0",
-    "pre-commit>=3.3.0,<4.0.0",
-    "bandit>=1.7.0,<2.0.0",
 ]
 ml-advanced = [
     "xgboost>=1.7.0,<2.0.0",
@@ -107,11 +54,6 @@ deep-learning = [
     "tensorflow>=2.13.0,<3.0.0",
     "transformers>=4.30.0,<5.0.0",
 ]
-production = [
-    "gunicorn>=21.0.0,<22.0.0",
-    "prometheus-client>=0.17.0,<1.0.0",
-    "structlog>=23.1.0,<24.0.0",
-]
 
 [project.urls]
 Homepage = "https://github.com/finbankiq/analytics-platform"
@@ -120,9 +62,9 @@ Repository = "https://github.com/finbankiq/analytics-platform.git"
 "Bug Tracker" = "https://github.com/finbankiq/analytics-platform/issues"
 
 [project.scripts]
-finbankiq-etl = "scripts.etl_pipeline:main"
-finbankiq-analyze = "scripts.eda_analysis:main"
-finbankiq-predict = "scripts.predictive_models:main"
+finbankiq-etl = "etl.01_etl_pipeline:main"
+finbankiq-analyze = "analysis.03_eda_analysis:main"
+finbankiq-predict = "scripts.04_predictive_models:main"
 
 [tool.black]
 line-length = 88
@@ -158,11 +100,12 @@ disallow_untyped_defs = true
 ignore_missing_imports = true
 
 [tool.coverage.run]
-source = ["scripts"]
+source = ["etl", "analysis", "sql", "utils", "scripts"]
 omit = [
     "*/tests/*",
     "*/venv/*",
     "*/__pycache__/*",
+    "*/codici_irene/*",
 ]
 
 [tool.coverage.report]
@@ -178,7 +121,7 @@ exclude_lines = [
 ]
 
 [tool.hatch.build.targets.wheel]
-packages = ["scripts"]
+packages = ["etl", "analysis", "sql", "utils", "scripts"]
 
 [tool.ruff]
 target-version = "py38"

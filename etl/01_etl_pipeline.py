@@ -224,7 +224,7 @@ def main():
     success = etl.run_pipeline()
     
     if success:
-        print("\n🎉 FinBankIQ Analytics Pipeline is ready!")
+        print("\nFinBankIQ Analytics Pipeline is ready!")
         print(f"Database location: {config.db_path}")
         print("\nNext steps:")
         print("1. Run exploratory data analysis")

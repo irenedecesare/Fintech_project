@@ -69,7 +69,7 @@ def calculate_moving_average(db_path: str, asset: str, feature: str, window: int
         AVG({feature}) OVER (
             ORDER BY time 
             ROWS BETWEEN {window-1} PRECEDING AND CURRENT ROW
-        ) as {feature}_MA{window}
+        ) as {feature}_MA{window}days
     FROM crypto_metrics_{asset}
     ORDER BY time
     """
@@ -136,7 +136,7 @@ def compute_return_and_volatility(db_path: str, asset: str, feature: str, lag: i
                 ORDER BY time
                 ROWS BETWEEN {window}-1 PRECEDING AND CURRENT ROW
             )
-        ) AS {feature}_RV{window}_lag{lag} 
+        ) AS {feature}_RV{window}_return{lag} 
     FROM rolling_stats  
     ORDER BY time;
     """
@@ -370,7 +370,7 @@ def main():
                     ma_df = temp_df
                 else:
                     # Only merge the moving average column, not the original feature column
-                    ma_col = f"{feature}_MA{window}"
+                    ma_col = f"{feature}_MA{window}days"
                     ma_df = pd.merge(ma_df, temp_df[['time', ma_col]], on='time', how='inner')
             print(f"\n Moving Averages for {feature} of {asset.upper()} (last 5 records):")
             print(ma_df.head())
@@ -386,7 +386,7 @@ def main():
             logger.info("-" * 40)
             lag_df = compute_return_and_volatility(db_path, asset, feature, config.lag, config.vol_window)
             print(f"\nLag and Volatility for {feature} of {asset.upper()} (last 5 records):")
-            print(lag_df[['time', f"{feature}_return{config.lag}", f"{feature}_return{config.lag}_mean{config.vol_window}", f"{feature}_RV{config.vol_window}_lag{config.lag}"]].head())
+            print(lag_df[['time', f"{feature}_return{config.lag}", f"{feature}_return{config.lag}_mean{config.vol_window}", f"{feature}_RV{config.vol_window}_return{config.lag}"]].head())
             logger.info(f"Lag and Volatility for {feature} of {asset.upper()} computed")
             lag_df.to_csv(f'{config.output_dir_sql}/{asset}_{feature}_lag_volatility.csv', index=False)
 

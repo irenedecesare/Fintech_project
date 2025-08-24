@@ -10,3 +10,4 @@ codici_irene/*
 __pycache__/*
 data/csv/*
 data/eda/*
+utils/__pycache__/*

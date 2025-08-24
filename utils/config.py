@@ -51,13 +51,15 @@ lookback_days: int = 365 * 2                                #Lookback period for
 # RetUSD missing from the dataset
 target_aggregate_metrics: List[str] = ['PriceUSD', 'TxCnt', 'AdrActCnt', 'CapMrktCurUSD',
                                         'ROI1yr', 'ROI30d','AdrBal1in100KCnt','AdrBal1in10KCnt',
-                                       'AdrBalUSD10KCnt','AdrBalUSD100KCnt','AdrBalUSD1MCnt',
-                                       'SplyAdrTop1Pct','SplyCur','SplyAct180d','SplyAct1yr','SplyAct2yr']
+                                       'AdrBalUSD10KCnt','AdrBalUSD100KCnt','AdrBalUSD1MCnt', 'AdrBalCnt',
+                                       'SplyAdrTop1Pct','SplyCur','SplyAct180d','SplyAct1yr','SplyAct2yr','CapMVRVCur', 'NVTAdj90']
 
 target_lag_vol_metrics: List[str] = ['PriceUSD', 'AdrActCnt','AdrBalUSD10KCnt','AdrBalUSD100KCnt',
                                       'VtyDayRet30d', 'CapMVRVCur', 'AdrBal1in10KCnt']
 target_delta_metrics: List[str] = ['PriceUSD',  'AdrActCnt','AdrBalUSD10KCnt','AdrBalUSD100KCnt',
                                     'VtyDayRet30d', 'CapMVRVCur', 'AdrBal1in10KCnt']
+target_correlation_metrics: List[str] = ['PriceUSD', 'TxCnt', 'AdrActCnt', 
+                                         'CapMrktCurUSD','ROI1yr', 'ROI30d' ]
 win_avg = [7, 30, 90]
 vol_window = 30
 lag=1 
